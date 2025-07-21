@@ -33,6 +33,10 @@ public class WeightedGraph {
         return adjList.keySet();
     }
 
+    public boolean hasEdge(String a, String b) {
+        return false;
+    }
+
     public static class Edge {
         String to;
         int weight;
